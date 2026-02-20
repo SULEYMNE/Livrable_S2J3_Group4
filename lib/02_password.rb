@@ -15,7 +15,7 @@ def login(password)
     puts "Entre ton mot de passe :"
     print "> "
     input = gets.chomp
-    puts "Mauvais mot de passe, réessaie !" if input != password
+    puts "Mauvais mot de passe, réessaie !" if input != password    #une boucle continue,jusqu'a l'entre du vrai mot de passe
   end
 end
 
