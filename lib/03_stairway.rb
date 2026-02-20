@@ -28,7 +28,7 @@ end
 # 2. Statistiques
 def average_finish_time
   total_turns = 0       # Compteur du nombre total de tours
-  simulations = 20     # On simule 100 parties
+  simulations = 100     # On simule 100 parties
 
   simulations.times do   # Répéter 100 fois
     position = 0
